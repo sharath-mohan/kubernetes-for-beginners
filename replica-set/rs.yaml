@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       name: nginx
-      lables:
+      labels:
         app: nginx-app
         tier: dev
     spec:
@@ -19,4 +19,5 @@ spec:
   replicas: 3
   selector:
     matchLabels:
+      app: nginx-app
       tier: dev
