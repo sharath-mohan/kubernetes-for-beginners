@@ -9,6 +9,9 @@ spec:
   template:
     metadata:
       name: nginx
+      lables:
+        app: nginx-app
+        tier: dev
     spec:
       containers:
         - name: nginx
