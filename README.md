@@ -27,3 +27,9 @@ kubectl delete replicaset <replicaset name>
 ```bash
 kubectl replace -f <defintion-file>
 ```
+
+### get all resources
+
+```bash
+kubectl get all
+```
